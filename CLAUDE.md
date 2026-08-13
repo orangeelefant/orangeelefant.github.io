@@ -10,25 +10,18 @@ Christoffer Holmgren — personal site
 
 ## Stack
 
-_(Fill in: framework, language, hosting, key services. Inspect `package.json` / `pyproject.toml` / similar to confirm.)_
+Ren statisk HTML. Ingen byggkedja, inga beroenden. Publiceras av GitHub Pages på https://orangeelefant.github.io.
 
 ## Layout
 
-- `src/` — source code
-- `tests/` — tests
-- `docs/` — documentation
-- `scripts/` — utility scripts
+- `index.html` — hela sidan, inklusive JSON-LD `@graph` (WebSite + ProfilePage + Person)
+- `robots.txt`
 
 ## Commands
 
 ```bash
-# install
-# build
-# test
-# dev
+# Inga. Redigera index.html, committa, pusha — GitHub Pages publicerar.
 ```
-
-_(Fill in actual commands once known.)`_
 
 ## Conventions
 
