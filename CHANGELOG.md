@@ -15,6 +15,7 @@ Every commit that changes behavior, copy, configuration, or dependencies MUST ad
 ## [Unreleased]
 
 - OCR-granskning: tog bort döda länkar till `github.com/Webraketen` (organisationen är raderad) ur JSON-LD `sameAs` och sidfoten (2026-09-23).
+- Tog bort döda länkar till github.com/Webraketen (organisationen raderad 2026-07-30) ur `sameAs` och sidfoten. Översatte de engelska fraserna till svenska. Kundlistan avstämd mot `sites/`: alla elva står kvar (2026-10-05).
 - Ersatte bootstrap-platshållarna i `CLAUDE.md` med repots verkliga stack och layout (2026-08-13).
 
 - Added JSON-LD structured data: connected `@graph` with `WebSite`, `ProfilePage`, and `Person` nodes (stable `@id`s, `sameAs` to GitHub/Webraketen/Rastahunden) so crawlers and LLMs can resolve the site identity (2026-06-23).
