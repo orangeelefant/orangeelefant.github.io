@@ -4,6 +4,10 @@ All notable changes to this project are documented here. Format loosely follows 
 
 Every commit that changes behavior, copy, configuration, or dependencies MUST add an entry under `[Unreleased]` before being pushed.
 
+## 2026-10-05
+
+- `PRODUCT.md` (Impeccable) med svaren 2026-10-05, och designhandboken i `docs/designhandbok.html`.
+
 ## 2026-08-23
 
 - **DESIGN.md tillagd** Krav enligt repo-standards. Ingen kod ändrad.
