@@ -6,6 +6,7 @@ Every commit that changes behavior, copy, configuration, or dependencies MUST ad
 
 ## [Unreleased]
 
+- Hemstäd Göteborg är borttagen ur sajtlistan i index.html enligt Christoffers beslut (2026-11-04).
 - README har titel, kort beskrivning och Webraketens GitHub-sidfot. Sidan länkar till Blue Pencil under "Öppen källkod". AGENTS.md och CLAUDE.md anger rätt live-URL och gren. GitHub-beskrivning, hemsida och ämnen uppdaterade (2026-11-04).
 - OCR-granskning: tog bort döda länkar till `github.com/Webraketen` (organisationen är raderad) ur JSON-LD `sameAs` och sidfoten (2026-09-23).
 - Familjen är allt tillagd i kundlistan.
