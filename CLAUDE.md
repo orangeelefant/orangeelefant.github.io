@@ -2,41 +2,32 @@
 
 Project context for Claude Code sessions in this repository.
 
-## What This Is
+## What this is
 
-Christoffer — personal site
+Christoffer's personal identity page. It exists mainly as a verifiable Person node in schema.org JSON-LD.
 
-**Live:** main
+**Live:** https://orangeelefant.github.io
 
 ## Stack
 
-Ren statisk HTML. Ingen byggkedja, inga beroenden. Publiceras av GitHub Pages på https://orangeelefant.github.io.
+Plain static HTML with inline CSS and JSON-LD. No build, no dependencies. Published by GitHub Pages from `main`.
 
 ## Layout
 
-- `index.html` — hela sidan, inklusive JSON-LD `@graph` (WebSite + ProfilePage + Person)
+- `index.html`: the whole page, including the JSON-LD `@graph` (WebSite, ProfilePage, Person)
+- `DESIGN.md`, `PRODUCT.md`: design tokens and product brief
+- `docs/designhandbok.html`: design handbook generated from DESIGN.md
 - `robots.txt`
 
 ## Commands
 
-```bash
-# Inga. Redigera index.html, committa, pusha — GitHub Pages publicerar.
-```
+None. Edit the files, commit, push to `main`.
 
-## Conventions
+## Definition of done
 
-- Match existing patterns; don't introduce new abstractions without reason.
-- Keep files under 500 lines.
-- Swedish copy for client-facing text unless otherwise specified.
-- Secrets live in `~/.secrets` and are referenced via `${VAR}`.
+1. Links checked: every client link keeps its URL and anchor text.
+2. `CHANGELOG.md` has a line under `[Unreleased]`.
+3. `TODO.md` reconciled.
+4. Committed and pushed to `main`.
 
-## Definition of Done
-
-A change is done when:
-
-1. Code works (built and verified locally).
-2. `CHANGELOG.md` updated under `[Unreleased]`.
-3. `TODO.md` reconciled (completed items removed or ticked, follow-ups added).
-4. Committed and pushed to ``.
-
-See `AGENTS.md` for the full agent contract.
+See `AGENTS.md` for the agent rules.

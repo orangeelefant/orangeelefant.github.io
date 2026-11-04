@@ -1,8 +1,10 @@
 # orangeelefant.github.io
 
-Personlig landningssida för Christoffer via GitHub Pages.
+Christoffers personliga sida på GitHub Pages, med länkar till Webraketen, Rastahunden och sajterna Webraketen bygger.
 
-- **Deploy-URL:** https://orangeelefant.github.io
-- **Stack:** Statisk HTML/CSS (GitHub Pages default)
+- Live: https://orangeelefant.github.io
+- Teknik: en statisk `index.html` med inlinad CSS och JSON-LD (WebSite, ProfilePage, Person). Ingen byggkedja.
+- Design: [`DESIGN.md`](DESIGN.md) och [`PRODUCT.md`](PRODUCT.md)
 
-Repon innehåller endast org-pages för `orangeelefant`.
+---
+**Webraketen på GitHub:** [Portfolio](https://github.com/orangeelefant/portfolio) · [Kundcase](https://github.com/orangeelefant/case-studies) · [Blue Pencil](https://github.com/orangeelefant/bluepencil) · [webraketen.se](https://webraketen.se)
