@@ -5,6 +5,11 @@ All notable changes to this project are documented here. Format loosely follows 
 Every commit that changes behavior, copy, configuration, or dependencies MUST add an entry under `[Unreleased]` before being pushed.
 
 ## [Unreleased]
+## 2026-11-06
+
+- Avvecklad 2026-11-06 (Christoffers beslut). GitHub Pages avstängt. Repot arkiveras på GitHub.
+
+## 2026-11-02
 
 - Hemstäd Göteborg är borttagen ur sajtlistan i index.html enligt Christoffers beslut (2026-11-04).
 - README har titel, kort beskrivning och Webraketens GitHub-sidfot. Sidan länkar till Blue Pencil under "Öppen källkod". AGENTS.md och CLAUDE.md anger rätt live-URL och gren. GitHub-beskrivning, hemsida och ämnen uppdaterade (2026-11-04).
